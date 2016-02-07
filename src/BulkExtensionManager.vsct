@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidBulkExtensionManagerPkg">
+
+    <Menus>
+      <Menu guid="guidFlyoutImportExportMenu" id="FlyoutImportExportMenu" priority="0x9500" type="Menu">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_TOOLS_OTHER2" />
+        <Strings>
+          <ButtonText>Bulk Extension Manager</ButtonText>
+        </Strings>
+      </Menu>
+    </Menus>
+
+    <Groups>
+      <Group guid="guidFlyoutImportExportMenu" id="FlyoutImportExportGroup" priority="0x1000">
+        <Parent guid="guidFlyoutImportExportMenu" id="FlyoutImportExportMenu"/>
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidImportExportCmdSet" id="cmdImport" priority="0x0100" type="Button">
+        <Parent guid="guidFlyoutImportExportMenu" id="FlyoutImportExportGroup" />
+        <Strings>
+          <ButtonText>Import</ButtonText>
+        </Strings>
+      </Button>
+
+      <Button guid="guidImportExportCmdSet" id="cmdExport" priority="0x300" type="Button">
+        <Parent guid="guidFlyoutImportExportMenu" id="FlyoutImportExportGroup" />
+        <Strings>
+          <ButtonText>Export</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidBulkExtensionManagerPkg" value="{cb8900a0-79fb-4c76-a6d6-f4e88d3384d3}" />
+
+    <GuidSymbol name="guidImportExportCmdSet" value="{c1703d5f-c150-4977-a4a7-d4a6094412be}">
+      <IDSymbol name="cmdImport" value="0x0400" />
+      <IDSymbol name="cmdExport" value="0x0500" />
+    </GuidSymbol>
+
+    <GuidSymbol name="guidFlyoutImportExportMenu" value="{c1703d5f-c150-4977-a4a2-d4a6094412bb}">
+      <IDSymbol name="FlyoutImportExportMenu" value="0x2020" />
+      <IDSymbol name="FlyoutImportExportGroup" value="0x2030" />
+    </GuidSymbol>
+  </Symbols>
+
+</CommandTable>

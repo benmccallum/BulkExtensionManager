@@ -1,8 +1,8 @@
 ## Visual Studio Bulk Extension Manager
 
-[![Build status](https://ci.appveyor.com/api/projects/status/todo?svg=true)](https://ci.appveyor.com/project/benmccallum/bulkextensionmanager)
+[![Build status](https://ci.appveyor.com/api/projects/status/cocghfvc3fjnf4eb?svg=true)](https://ci.appveyor.com/project/benmccallum/bulkextensionmanager)
 
-[Download the extension on the VS Gallery](https://google.com/todo)
+[Download the extension from the VS Gallery](https://google.com/todo)
 or get the [nightly build](https://ci.appveyor.com/project/benmccallum/bulkextensionmanager/build/artifacts)
 
 This extension allows you to perform bulk operations on your Visual Studio extensions.

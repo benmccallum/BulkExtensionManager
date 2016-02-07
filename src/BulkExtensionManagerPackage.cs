@@ -37,7 +37,6 @@ namespace BenMcCallum.BulkExtensionManager
             IVsOutputWindowPane customOutputPane;
             outWindow.GetPane(ref paneGuid, out customOutputPane);
 
-
             // Setup the menu buttons
             Commands commands = new Commands(repository, manager, mcs, customOutputPane);
             commands.Initialize();

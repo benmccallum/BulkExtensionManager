@@ -15,7 +15,7 @@ namespace BenMcCallum.BulkExtensionManager
     [Guid(GuidList.guidBulkExtensionManagerPkgString)]
     public sealed class BulkExtensionManagerPackage : ExtensionPointPackage
     {
-        public const string Version = "1.6";
+        public const string Version = "1.0";
 
         protected override void Initialize()
         {

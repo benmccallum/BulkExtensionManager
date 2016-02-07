@@ -15,9 +15,8 @@ You can perform the export and import via a flyout menu located in the `Tools` m
 
 ![Screenshot](https://raw.githubusercontent.com/benmccallum/BulkExtensionManager/master/artifacts/screenshot.png)
 
-The first item in the menu is `Export`, which does as you'd expect, allowing you to export a file to disk of your currently installed extensions.
-
-The second item in the menu is the `Import`, which does the inverse, allowing you to import a list from file and install in one operation any missing extensions. 
+Exporting let's you write a file to disk of your currently installed extensions, which can be imported elsewhere using the `Import` menu option. 
+An import will install any extensions you don't already have. 
 
 Not all extensions are supported. Only the ones that can be auto installed on import, which excludes:
 

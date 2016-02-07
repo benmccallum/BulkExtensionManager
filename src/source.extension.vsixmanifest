@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="cb8900a0-79fb-4c76-a6d6-f4e88d3384d3" Version="1.6" Language="en-US" Publisher="Ben McCallum" />
+        <Identity Id="cb8900a0-79fb-4c76-a6d6-f4e88d3384d3" Version="1.0" Language="en-US" Publisher="Ben McCallum" />
         <DisplayName>Visual Studio Bulk Extension Manager</DisplayName>
         <Description xml:space="preserve">Manage your extensions between VS installs with an easy export and import. Setting up a new machine becomes a whole lot easier!</Description>
         <License>Resources\License.txt</License>
